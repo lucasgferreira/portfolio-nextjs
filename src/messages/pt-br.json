@@ -1,0 +1,66 @@
+{
+  "Footer": {
+    "contact": "Contato",
+    "description": "Caso você tenha se interessado e deseja trabalhar comigo, você pode entrar em contato.",
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "footer": "{year} Lucas Gonçalves Ferreira"
+  },
+  "Navbar": {
+    "about": "Sobre",
+    "experience": "Histórico Profissional",
+    "skills": "Skills",
+    "contact": "Contato",
+    "language": "Idioma"
+  },
+  "about": {
+    "title": "Olá, eu sou Lucas Gonçalves",
+    "description1": "Desenvolvedor de software especializado em React Native, JavaScript, e desenvolvimento full stack.",
+    "description2": "Desenvolvedor com 5 anos de experiência em React Native, ReactJs e TypeScript, especializado na criação de soluções mobile e desenvolvimento de APIs e websites utilizando Laravel. Atua em equipes ágeis, aplicando boas práticas de desenvolvimento, com foco na entrega de projetos escaláveis e de alta qualidade, sempre priorizando a satisfação do cliente.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "experience": {
+    "positions": [
+      {
+        "title": "Analista de Sistemas",
+        "company": "Mercadinho do Zé",
+        "period": "Julho/2021 - Outubro/2024",
+        "description": "Atuei como Tech Lead no Mercadinho do Zé, uma startup fundada em parceria com o Atacadão Dia a Dia. Fui responsável pelo desenvolvimento dos principais aplicativos da empresa, liderando a equipe de desenvolvedores mobile e garantindo soluções eficientes e escaláveis.",
+        "skills": [
+          "React Native",
+          "TypeScript",
+          "React Hooks",
+          "Context-API",
+          "Laravel",
+          "CI/CD",
+          "Appium"
+        ]
+      },
+      {
+        "title": "Analista de Sistemas",
+        "company": "Capgemini",
+        "period": "Abril/2020 - Julho/2021",
+        "description": "Atuei em um time de IA especializado em imagens, desenvolvendo um app de captura com detecção facial para identificar falsos positivos. Criei painéis de relatórios e logs, além de colaborar na construção de APIs e testes unitários com o time de backend.",
+        "skills": [
+          "React Native",
+          "TypeScript",
+          "React Hooks",
+          "Context-API",
+          "AngularJS",
+          "Flask",
+          "FastAPI",
+          "PyTest"
+        ]
+      },
+      {
+        "title": "Desenvolvedor de Software",
+        "company": "SISTERS Live Marketing",
+        "period": "Junho/2018 - Fevereiro/2020",
+        "description": "Atuei como desenvolvedor full stack em uma empresa focada em marketing, sendo responsável pela criação de painéis administrativos, sites e landing pages. Também liderei o desenvolvimento e a publicação de aplicativos na Google Play e Apple Store.",
+        "skills": ["React Native", "Laravel", "PHP", "Bootstrap", "JavaScript"]
+      }
+    ]
+  }
+}

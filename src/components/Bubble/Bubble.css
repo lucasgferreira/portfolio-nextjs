@@ -1,0 +1,67 @@
+.Bubble {
+  height: calc(28rem);
+  width: calc(28rem);
+
+  border: 2px solid white;
+  border-radius: 50%;
+  display: block;
+
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.Bubble.blurry {
+  filter: blur(3px);
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+.BubbleCluster {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.BubbleCluster .Bubble {
+  animation: none;
+}
+
+.BubbleCluster .Bubble + .Bubble {
+  margin-top: -1px;
+}
+
+.BubbleLayerBoundary {
+  position: relative;
+}
+
+.BubbleLayerBoundary > * {
+  position: relative;
+  z-index: 1;
+}
+
+.BubbleLayer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.BubbleLayer > .Bubble,
+.BubbleLayer > .BubbleCluster {
+  position: absolute;
+}

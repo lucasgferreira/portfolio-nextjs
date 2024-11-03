@@ -1,0 +1,66 @@
+{
+  "Footer": {
+    "contact": "Contact",
+    "description": "If you're interested and would like to work with me, feel free to get in touch.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub",
+    "footer": "{year} Lucas Gonçalves Ferreira"
+  },
+  "Navbar": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "about": {
+    "title": "Hello, I'm Lucas Gonçalves",
+    "description1": "Software developer specialized in React Native, JavaScript, and full stack development.",
+    "description2": "Developer with 5 years of experience in React Native, ReactJs, and TypeScript, specializing in creating mobile solutions and developing APIs and websites using Laravel. Works in agile teams, applying best development practices, focusing on delivering scalable and high-quality projects, always prioritizing customer satisfaction.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "experience": {
+    "positions": [
+      {
+        "title": "Systems Analyst",
+        "company": "Mercadinho do Zé",
+        "period": "July/2021 - October/2024",
+        "description": "I worked as Tech Lead at Mercadinho do Zé, a startup founded in partnership with Atacadão Dia a Dia. I was responsible for developing the company's main applications, leading the mobile development team and ensuring efficient and scalable solutions.",
+        "skills": [
+          "React Native",
+          "TypeScript",
+          "React Hooks",
+          "Context-API",
+          "Laravel",
+          "CI/CD",
+          "Appium"
+        ]
+      },
+      {
+        "title": "Systems Analyst",
+        "company": "Capgemini",
+        "period": "April/2020 - July/2021",
+        "description": "I worked in an AI team specialized in images, developing a capture app with facial detection to identify false positives. I created report dashboards and logs, as well as collaborating on building APIs and unit tests with the backend team.",
+        "skills": [
+          "React Native",
+          "TypeScript",
+          "React Hooks",
+          "Context-API",
+          "AngularJS",
+          "Flask",
+          "FastAPI",
+          "PyTest"
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "company": "SISTERS Live Marketing",
+        "period": "June/2018 - February/2020",
+        "description": "I worked as a full stack developer in a marketing-focused company, responsible for creating admin panels, websites, and landing pages. I also led the development and publishing of apps on Google Play and Apple Store.",
+        "skills": ["React Native", "Laravel", "PHP", "Bootstrap", "JavaScript"]
+      }
+    ]
+  }
+}
