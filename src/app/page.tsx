@@ -92,7 +92,6 @@ export default function Page() {
             <Bubble
               size={170}
               thickness={20}
-              duration={6}
               blur={2}
               top="20%"
               left="5%"
@@ -102,7 +101,6 @@ export default function Page() {
             <Bubble
               size={110}
               thickness={15}
-              duration={10}
               blur={2}
               top="17%"
               left="5%"
@@ -112,7 +110,6 @@ export default function Page() {
             <Bubble
               size={130}
               thickness={15}
-              duration={7}
               blur={2}
               top="5%"
               right="6%"
@@ -122,7 +119,6 @@ export default function Page() {
             <Bubble
               size={95}
               thickness={11}
-              duration={9}
               blur={2}
               top="30%"
               right="6%"
@@ -139,7 +135,6 @@ export default function Page() {
             <Bubble
               size={55}
               thickness={8}
-              duration={7}
               blur={4}
               top="65%"
               left="15%"
@@ -149,7 +144,6 @@ export default function Page() {
             <Bubble
               size={140}
               thickness={20}
-              duration={9}
               blur={2}
               top="60%"
               right="6%"
@@ -159,7 +153,6 @@ export default function Page() {
             <Bubble
               size={90}
               thickness={20}
-              duration={9}
               blur={2}
               top="50%"
               right="8%"
@@ -169,7 +162,6 @@ export default function Page() {
             <Bubble
               size={180}
               thickness={30}
-              duration={9}
               blur={2}
               top="45%"
               left="6%"
