@@ -12,14 +12,14 @@ export default function AboutSection() {
       className="relative min-h-screen flex items-center justify-center"
     >
       <div>
-        {/* <div className="flex justify-center mb-6 pt-20">
-          <img
+        <div className="flex justify-center mb-6 pt-20">
+          {/* <img
             src="/img/profile.jpg"
             alt="Lucas Gonçalves"
             className="w-36 h-36 rounded-full border-4 border-white"
-          />
-        </div> */}
-        <div className="text-center">
+          /> */}
+        </div>
+        <div className="text-center mb-6 pt-20">
           <ReactTyped
             className="text-4xl font-bold text-white"
             strings={[t("title")]}
