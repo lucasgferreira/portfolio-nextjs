@@ -1,6 +1,16 @@
 "use client";
 
-export default function SkillsSection({ skills }) {
+type Skill = {
+  nome: string;
+  icon: string;
+  nivel: number;
+};
+
+type SkillsSectionProps = {
+  skills: Skill[];
+};
+
+export default function SkillsSection({ skills }: SkillsSectionProps) {
   return (
     <section
       id="skills"
