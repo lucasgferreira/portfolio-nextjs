@@ -1,24 +1,9 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
 import Navbar from "@/components/Header/Navbar";
-import { ThemeProvider } from "next-themes";
-import Footer from "@/components/Footer";
-import ParticlesBackground from "@/components/Animations/ParticlesBackground";
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
-import { ReactNode } from "react";
 import { getLocale, getMessages } from "next-intl/server";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+import { ThemeProvider } from "next-themes";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -27,13 +12,6 @@ export const metadata: Metadata = {
 
 export function generateStaticParams() {
   return [{ locale: "en" }, { locale: "pt" }];
-}
-
-interface Props {
-  children: ReactNode;
-  params: {
-    locale: string;
-  };
 }
 
 export default async function RootLayout({

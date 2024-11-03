@@ -698,13 +698,6 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-typist@^2.0.6":
-  version "2.0.6"
-  resolved "https://registry.npmjs.org/@types/react-typist/-/react-typist-2.0.6.tgz"
-  integrity sha512-/7tmwNwKLOAdL1kx0y7yel4DqOvdQSk13MlCnBX8GyLoYicrU7t8rPOzu2soFTzq0c6QAeX6uSqTRX3tdya7rg==
-  dependencies:
-    "@types/react" "*"
-
 "@types/react-vertical-timeline-component@^3.3.6":
   version "3.3.6"
   resolved "https://registry.npmjs.org/@types/react-vertical-timeline-component/-/react-vertical-timeline-component-3.3.6.tgz"
@@ -2819,7 +2812,7 @@ promise-worker-transferable@^1.0.4:
     is-promise "^2.1.0"
     lie "^3.0.2"
 
-prop-types@^15.5.10, prop-types@^15.6.0, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.6.0, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -2913,29 +2906,12 @@ react-style-singleton@^2.2.1:
     invariant "^2.2.4"
     tslib "^2.0.0"
 
-react-text-typist@^1.1.8:
-  version "1.1.8"
-  resolved "https://registry.npmjs.org/react-text-typist/-/react-text-typist-1.1.8.tgz"
-  integrity sha512-cF5TIWjPV2ErRSM8DRloI4w+1Op5RhUWY6UT29D6wW50zKd4gK1xLzVPOD+4i5h3RlB/2td4z6VQ3ZcgWeFJvA==
-
 react-typed@^2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/react-typed/-/react-typed-2.0.12.tgz#898037767a59c43d6e0a4a4e42d13c0adb34abfc"
   integrity sha512-sn59lrb4NKgvQLDGBRWM4wRNEz5Fp37F0BrLA2cKUmDqPSyQJOOiFigz+6wJof0o99QoE16nVCa3B3ID34ejsg==
   dependencies:
     typed.js "^2.1.0"
-
-react-typist-component@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/react-typist-component/-/react-typist-component-1.1.1.tgz"
-  integrity sha512-hTLdkph9jXGIDZ28TS0oninJfpU4wr5HFp5xEv6CARVoXvwYHFwdIAZ0J8hKRuPI8AG2eYNusUpO2QwWZ7G8qA==
-
-react-typist@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.npmjs.org/react-typist/-/react-typist-2.0.5.tgz"
-  integrity sha512-iZCkeqeegO0TlkTMiH2JD1tvMtY9RrXkRylnAI6m8aCVAUUwNzoWTVF7CKLij6THeOMcUDCznLDDvNp55s+YZA==
-  dependencies:
-    prop-types "^15.5.10"
 
 react-vertical-timeline-component@^3.6.0:
   version "3.6.0"

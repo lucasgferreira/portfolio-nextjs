@@ -9,7 +9,6 @@ import Bubble, {
   BubbleLayerBoundary,
 } from "@/components/Bubble";
 import Footer from "@/components/Footer";
-import Navbar from "@/components/Header/Navbar";
 import enjson from "@/messages/en.json";
 import ptbrjson from "@/messages/pt-br.json";
 import { useLocale } from "next-intl";

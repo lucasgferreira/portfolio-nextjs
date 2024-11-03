@@ -1,14 +1,12 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
+import { BriefcaseBusiness, X } from "lucide-react";
+import { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { BriefcaseBusiness } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
-import { X } from "lucide-react"; // Importando o ícone de fechar
-import { useTranslations } from "next-intl";
 
 export default function ExperienceSection({ experienceData }) {
   const [selectedId, setSelectedId] = useState(null);
