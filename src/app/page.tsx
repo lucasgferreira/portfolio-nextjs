@@ -15,9 +15,32 @@ import { useLocale } from "next-intl";
 import { useEffect, useState } from "react";
 import "react-vertical-timeline-component/style.min.css";
 
+// Define os tipos para os dados de experiência e habilidades
+type ExperiencePosition = {
+  title: string;
+  company: string;
+  description: string;
+  period: string;
+  skills: string[];
+};
+
+type ExperienceData = {
+  experience: {
+    positions: ExperiencePosition[];
+  };
+};
+
+type Skill = {
+  nome: string;
+  icon: string;
+  nivel: number;
+};
+
 export default function Page() {
-  const [experienceData, setExperienceData] = useState([]);
-  const [skills, setSkills] = useState([]);
+  const [experienceData, setExperienceData] = useState<ExperienceData | null>(
+    null
+  );
+  const [skills, setSkills] = useState<Skill[]>([]);
 
   const locale = useLocale();
 

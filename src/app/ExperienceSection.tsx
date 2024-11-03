@@ -8,8 +8,22 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-export default function ExperienceSection({ experienceData }) {
-  const [selectedId, setSelectedId] = useState(null);
+type Experience = {
+  title: string;
+  company: string;
+  description: string;
+  period: string;
+  skills: string[];
+};
+
+type ExperienceSectionProps = {
+  experienceData: Experience[];
+};
+
+export default function ExperienceSection({
+  experienceData,
+}: ExperienceSectionProps) {
+  const [selectedId, setSelectedId] = useState<number | null>(null);
 
   return (
     <section
