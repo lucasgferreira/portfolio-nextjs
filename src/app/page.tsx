@@ -15,32 +15,9 @@ import { useLocale } from "next-intl";
 import { useEffect, useState } from "react";
 import "react-vertical-timeline-component/style.min.css";
 
-// Define os tipos para os dados de experiência e habilidades
-type ExperiencePosition = {
-  title: string;
-  company: string;
-  description: string;
-  period: string;
-  skills: string[];
-};
-
-type ExperienceData = {
-  experience: {
-    positions: ExperiencePosition[];
-  };
-};
-
-type Skill = {
-  nome: string;
-  icon: string;
-  nivel: number;
-};
-
 export default function Page() {
-  const [experienceData, setExperienceData] = useState<ExperienceData | null>(
-    null
-  );
-  const [skills, setSkills] = useState<Skill[]>([]);
+  const [experienceData, setExperienceData] = useState([]);
+  const [skills, setSkills] = useState([]);
 
   const locale = useLocale();
 
@@ -92,6 +69,7 @@ export default function Page() {
             <Bubble
               size={170}
               thickness={20}
+              duration={6}
               blur={2}
               top="20%"
               left="5%"
@@ -101,6 +79,7 @@ export default function Page() {
             <Bubble
               size={110}
               thickness={15}
+              duration={10}
               blur={2}
               top="17%"
               left="5%"
@@ -110,6 +89,7 @@ export default function Page() {
             <Bubble
               size={130}
               thickness={15}
+              duration={7}
               blur={2}
               top="5%"
               right="6%"
@@ -119,6 +99,7 @@ export default function Page() {
             <Bubble
               size={95}
               thickness={11}
+              duration={9}
               blur={2}
               top="30%"
               right="6%"
@@ -135,6 +116,7 @@ export default function Page() {
             <Bubble
               size={55}
               thickness={8}
+              duration={7}
               blur={4}
               top="65%"
               left="15%"
@@ -144,6 +126,7 @@ export default function Page() {
             <Bubble
               size={140}
               thickness={20}
+              duration={9}
               blur={2}
               top="60%"
               right="6%"
@@ -153,6 +136,7 @@ export default function Page() {
             <Bubble
               size={90}
               thickness={20}
+              duration={9}
               blur={2}
               top="50%"
               right="8%"
@@ -162,6 +146,7 @@ export default function Page() {
             <Bubble
               size={180}
               thickness={30}
+              duration={9}
               blur={2}
               top="45%"
               left="6%"
